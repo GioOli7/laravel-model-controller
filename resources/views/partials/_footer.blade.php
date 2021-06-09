@@ -1,3 +1,3 @@
-<footer>
-    footer here
+<footer class="text-center">
+    fancy footer ®
 </footer>

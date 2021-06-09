@@ -1,0 +1,74 @@
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.text-center {
+  text-align: center;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Nunito", sans-serif;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+main {
+  flex-grow: 1;
+  display: flex;
+}
+
+header {
+  padding: 20px;
+  background-color: #5a83c2;
+  color: white;
+}
+
+footer {
+  padding: 20px;
+  background-color: #5a83c2;
+  color: white;
+}
+
+.cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 50px 0;
+}
+
+.cards-container .card {
+  width: calc(100% / 5 - 30px);
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-bottom: 30px;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #7d9fd1;
+}
+
+@media screen and (max-width: 1000px) {
+  .cards-container .card {
+    width: calc(100% / 3 - 30px);
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .cards-container .card {
+    width: calc(100% / 2 - 30px);
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .cards-container .card {
+    width: 100%;
+    text-align: center;
+  }
+}
+

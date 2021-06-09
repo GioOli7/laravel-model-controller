@@ -1,0 +1,18 @@
+@media screen and (max-width: 1000px) {
+    .cards-container .card {
+        width: calc(100% / 3 - 30px);
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .cards-container .card {
+        width: calc(100% / 2 - 30px);
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .cards-container .card {
+        width: 100%;
+        text-align: center;
+    }
+}
